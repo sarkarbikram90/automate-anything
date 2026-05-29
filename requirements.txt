@@ -1,0 +1,12 @@
+# Excel to MySQL Automation - Python Package Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+python-dotenv==1.0.0          # Load environment variables from .env
+openpyxl==3.10.10             # Read/write Excel files (.xlsx)
+mysql-connector-python==8.2.0  # MySQL database connector
+exchangelib==4.14.0           # Microsoft Exchange/Outlook integration
+
+# Optional (for enhanced functionality)
+requests==2.31.0              # HTTP requests library
+cryptography==41.0.7          # Encryption support for exchangelib
